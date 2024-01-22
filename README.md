@@ -4,7 +4,7 @@ This is a weather app with a very simple, user friendly interface that is design
 and contains within the funcitonality to search and view detailed weather informationg for any country, city, or anything in between, including the average weather for a state or a county or a local administrative unit. 
 It is designed to incorporate concepts used in android clean architecture to be very easy to maintain, and it contains within it the possibility to further expand its features in the future.
 
-##Contepts used 
+## Contepts used 
 
 The app uses several concepts to incorporate elemnets of clean archhitecture, these are :
 
@@ -20,13 +20,13 @@ Geocoder for determining geographical coordinates of a given city
 Data Store Preferences for saving the current session of the user
 RecyclerView
 
-##API Used
+## API Used
 
 https://open-meteo.com/en/docs
 
 The Api used is open-meteo, an open end weather information provider which is very simple to use and customizable, and it is relatively accurate and covers most regions in the world, requiring only customizing the endpoint and prooviding latitude and lontitude to work.
 
-##Authentication Feature
+## Authentication Feature
 
 The application uses FireBase authentication to verify its users. it incorporates clean architecture to make transitioning to another service easier in the future. It includes a home page, a login page and a registration page, with navigation set up between them to make transitioning easy.
 
@@ -34,7 +34,7 @@ The application uses FireBase authentication to verify its users. it incorporate
 ![image](https://github.com/kalkudin/Midterm_Project_Weather_App/assets/117531275/c9fe1d17-adcd-40c6-ad15-8a0bf1af2ec6)
 ![image](https://github.com/kalkudin/Midterm_Project_Weather_App/assets/117531275/26d2e0a3-f291-44a5-905b-9ccf24a82fcd)
 
-##Weather Feature
+## Weather Feature
 
 The application starts with displaying the weather for the given user location. if the user has not granted the application permission to use their location, it will be re-asked againa at this point. the information provided includes the current day, temperature for midday,
 humidity, windspeed and the general description of the weather. this is done by using a utility class WeatherType which is built based on weather codes provided by the api, which determines the description and the icon to use for a given weather.
