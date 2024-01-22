@@ -10,6 +10,7 @@ The app uses several concepts to incorporate elemnets of clean archhitecture, th
 
 - FireBase Authentication for Login and Registration functionality
 - Retrofit for interacting with the chosen API
+- okHttp logger for debug mode
 - AndroidX navigation component for single activity architecture
 - Couroutines and Flow for better optimization
 - SplashScreen API
