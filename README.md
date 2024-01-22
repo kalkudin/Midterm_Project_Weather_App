@@ -8,17 +8,17 @@ It is designed to incorporate concepts used in android clean architecture to be 
 
 The app uses several concepts to incorporate elemnets of clean archhitecture, these are :
 
-FireBase Authentication for Login and Registration functionality
-Retrofit for interacting with the chosen API
-AndroidX navigation component for single activity architecture
-Couroutines and Flow for better optimization
-SplashScreen API
-View Binding
-Dependency Injection using dagger Hilt
-FusedLocationProvider for providing accurate weather withing the vicinity of the user
-Geocoder for determining geographical coordinates of a given city
-Data Store Preferences for saving the current session of the user
-RecyclerView
+- FireBase Authentication for Login and Registration functionality
+- Retrofit for interacting with the chosen API
+- AndroidX navigation component for single activity architecture
+- Couroutines and Flow for better optimization
+- SplashScreen API
+- View Binding
+- Dependency Injection using dagger Hilt
+- FusedLocationProvider for providing accurate weather withing the vicinity of the user
+- Geocoder for determining geographical coordinates of a given city
+- Data Store Preferences for saving the current session of the user
+- RecyclerView
 
 ## API Used
 
