@@ -20,6 +20,7 @@ The app uses several concepts to incorporate elemnets of clean archhitecture, th
 - Geocoder for determining geographical coordinates of a given city
 - Data Store Preferences for saving the current session of the user
 - RecyclerView
+- MVI architecture
 
 ## API Used
 
